@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>564e1d2a-d238-460b-866d-6db79d40fe7f</ProjectGuid>
+    <ProjectGuid>{D8EF6544-FF81-4C4D-9EC9-C208A7130A02}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ClouDNSIPUpdater.Library</RootNamespace>

@@ -3,16 +3,50 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClouDNSIPUpdater.Service", "ClouDNSIPUpdater.Service\ClouDNSIPUpdater.Service.csproj", "{BA980400-C639-4590-AC4A-4984A48F2A0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClouDNSIPUpdater.Library", "ClouDNSIPUpdater.Library\ClouDNSIPUpdater.Library.csproj", "{D8EF6544-FF81-4C4D-9EC9-C208A7130A02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClouDNSIPUpdater.Console", "ClouDNSIPUpdater.Console\ClouDNSIPUpdater.Console.csproj", "{949737CF-BB35-48BC-BD96-0D463DE722F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA980400-C639-4590-AC4A-4984A48F2A0D}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{BA980400-C639-4590-AC4A-4984A48F2A0D}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{BA980400-C639-4590-AC4A-4984A48F2A0D}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{BA980400-C639-4590-AC4A-4984A48F2A0D}.Debug|x86.ActiveCfg = Debug|x86
 		{BA980400-C639-4590-AC4A-4984A48F2A0D}.Debug|x86.Build.0 = Debug|x86
+		{BA980400-C639-4590-AC4A-4984A48F2A0D}.Release|Any CPU.ActiveCfg = Release|x86
+		{BA980400-C639-4590-AC4A-4984A48F2A0D}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{BA980400-C639-4590-AC4A-4984A48F2A0D}.Release|Mixed Platforms.Build.0 = Release|x86
 		{BA980400-C639-4590-AC4A-4984A48F2A0D}.Release|x86.ActiveCfg = Release|x86
 		{BA980400-C639-4590-AC4A-4984A48F2A0D}.Release|x86.Build.0 = Release|x86
+		{D8EF6544-FF81-4C4D-9EC9-C208A7130A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8EF6544-FF81-4C4D-9EC9-C208A7130A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8EF6544-FF81-4C4D-9EC9-C208A7130A02}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D8EF6544-FF81-4C4D-9EC9-C208A7130A02}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D8EF6544-FF81-4C4D-9EC9-C208A7130A02}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D8EF6544-FF81-4C4D-9EC9-C208A7130A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8EF6544-FF81-4C4D-9EC9-C208A7130A02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8EF6544-FF81-4C4D-9EC9-C208A7130A02}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D8EF6544-FF81-4C4D-9EC9-C208A7130A02}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D8EF6544-FF81-4C4D-9EC9-C208A7130A02}.Release|x86.ActiveCfg = Release|Any CPU
+		{949737CF-BB35-48BC-BD96-0D463DE722F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949737CF-BB35-48BC-BD96-0D463DE722F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949737CF-BB35-48BC-BD96-0D463DE722F4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{949737CF-BB35-48BC-BD96-0D463DE722F4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{949737CF-BB35-48BC-BD96-0D463DE722F4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{949737CF-BB35-48BC-BD96-0D463DE722F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949737CF-BB35-48BC-BD96-0D463DE722F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949737CF-BB35-48BC-BD96-0D463DE722F4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{949737CF-BB35-48BC-BD96-0D463DE722F4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{949737CF-BB35-48BC-BD96-0D463DE722F4}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
