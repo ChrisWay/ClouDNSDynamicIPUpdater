@@ -11,7 +11,7 @@ namespace ClouDNSIPUpdater.Library.Config
             set { base["Name"] = value; }
         }
 
-        [ConfigurationProperty("DynamicURL", IsKey = false, IsRequired = true)]
+        [ConfigurationProperty("DynamicUrl", IsKey = false, IsRequired = true)]
         public string DynamicUrl
         {
             get { return (string)base["DynamicURL"]; }
