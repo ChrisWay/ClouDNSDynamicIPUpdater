@@ -1,11 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Configuration;
 
 namespace ClouDNSIPUpdater.Library.Config
 {
-    class ClouDNSConfigSection
+    public class ClouDNSConfigSection : ConfigurationSection
     {
+        [ConfigurationProperty("", IsRequired = true, IsDefaultCollection = true)]
+        public ClouDNSInstanceCollection Instances
+        {
+            get { return (ClouDNSInstanceCollection)this[""]; }
+            set { this[""] = value; }
+        }
     }
 }
