@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -40,6 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Config\ClouDNSConfig.cs" />
+    <Compile Include="Config\ClouDNSConfigSection.cs" />
+    <Compile Include="Config\ClouDNSInstanceCollection.cs" />
+    <Compile Include="Config\ClouDNSInstanceElement.cs" />
+    <Compile Include="DynamicUrlUpdater.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResponseParser.cs" />
   </ItemGroup>

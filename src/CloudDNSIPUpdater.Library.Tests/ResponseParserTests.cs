@@ -13,23 +13,20 @@ namespace CloudDNSIPUpdater.Library.Tests
         [Test]
         public void CheckReponse_ValidResponse_ReturnsTrue()
         {
-            ResponseParser parser = new ResponseParser();
-            Assert.IsTrue(parser.CheckResponse(ResponseParser.ValidResponce));
+            Assert.IsTrue(ResponseParser.CheckResponse(ResponseParser.ValidResponce));
         }
 
         [Test]
         public void CheckReponse_InvalidResponse_ReturnsFalse()
         {
-            ResponseParser parser = new ResponseParser();
-            Assert.IsFalse(parser.CheckResponse(ResponseParser.InvalidResponse));
+            Assert.IsFalse(ResponseParser.CheckResponse(ResponseParser.InvalidResponse));
         }
 
         [Test]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void CheckReponse_UnknownResponse_ThrowsArgumentOutOfRangeException()
         {
-            ResponseParser parser = new ResponseParser();
-            parser.CheckResponse("kjahkajhd");
+            ResponseParser.CheckResponse("kjahkajhd");
         }
     }
 }
